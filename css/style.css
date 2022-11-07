@@ -16,7 +16,7 @@ a {
 .main__container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 100%;
   background: #fff;
   margin: auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -24,12 +24,14 @@ a {
 
 /* main content section */
 
-/* .main_content_section {
-  padding: 80px 80px;
-} */
+.main_content_section {
+  /* padding: 80px 80px; */
+  width: 70%;
+}
 
 .information {
   padding: 0 100px;
+  width: 70%;
 }
 
 .main_content_title {
@@ -110,6 +112,15 @@ a {
   color: #000;
 
   text-decoration: underline;
+}
+
+.my_projects_code {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-left: 5px;
 }
 
 .my_projects_text {
@@ -195,7 +206,7 @@ a {
 
 .sidebar {
   background: #1e2939;
-  width: 370px;
+  width: 30%;
   padding: 40px 0px;
 }
 
@@ -219,6 +230,9 @@ a {
   height: 354px;
   left: 40px;
   top: 80px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 /* contact section */
@@ -239,7 +253,7 @@ a {
   font-size: 14px;
   line-height: 24px;
   color: #dee3eb;
-  padding-left: 11px;
+  padding-left: 23px;
 }
 
 /* tech skills section */
