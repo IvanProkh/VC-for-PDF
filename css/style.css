@@ -1,3 +1,27 @@
+:root {
+  /* --theme-color: #2196f3;
+  --second-color: #ffffff;
+  --logostudio-color: #000000; */
+
+  /* --background-first: #2f303a;
+  --background-section-list: #e5e5e5;
+  --background-third: #f5f4fa;
+
+  --text-primary: #212121;
+  --text-secondary: #757575;
+  --text-third: rgba(255, 255, 255, 0.6); */
+
+  /* --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+  --text-size-name: 72px;
+  --text-size-title: 32px;
+  --text-size-text: 22px;
+  --text-size-small: 16px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
@@ -38,7 +62,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 22px; */
-  font-size: 32px;
+  font-size: var(--text-size-title);
   /* line-height: 27px; */
   line-height: 1.5;
   color: #000;
@@ -58,7 +82,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 65px; */
-  font-size: 85px;
+  font-size: var(--text-size-name);
   /* line-height: 55px; */
   line-height: 1.5;
   color: #fff;
@@ -71,7 +95,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 25px; */
-  font-size: 35px;
+  font-size: var(--text-size-title);
   /* line-height: 17px; */
   line-height: 1.5;
   color: #fff;
@@ -89,7 +113,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 22px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
   color: #dee3eb;
@@ -117,7 +141,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 16px; */
-  font-size: 24px;
+  font-size: var(--text-size-text);
   /* line-height: 20px; */
   line-height: 1.5;
   color: #000;
@@ -129,7 +153,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 16px; */
-  font-size: 24px;
+  font-size: var(--text-size-text);
   /* line-height: 20px; */
   line-height: 1.5;
   color: #000;
@@ -140,7 +164,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 22px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
   color: #595959;
@@ -151,7 +175,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 22px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
   color: #595959;
@@ -167,7 +191,8 @@ a {
 .my_work_experience_position {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  /* font-size: 16px; */
+  font-size: var(--text-size-text);
   /* line-height: 20px; */
   line-height: 1.5;
   margin: 0 0 10px 0;
@@ -177,7 +202,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 12px; */
-  font-size: 19px;
+  font-size: var(--text-size-small);
   /* line-height: 15px; */
   line-height: 1.5;
   color: #a8a8a8;
@@ -196,7 +221,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 19px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
   color: #595959;
@@ -208,15 +233,20 @@ a {
 
 /* my_education */
 
-.my_education_speciality {
+.my_educational_institution {
   color: #fb6d3a;
+  font-size: var(--text-size-text);
+}
+
+.my_education_speciality {
+  font-size: var(--text-size-text);
 }
 
 .my_education_period {
   font-style: normal;
   font-weight: normal;
   /* font-size: 12px; */
-  font-size: 17px;
+  font-size: var(--text-size-small);
   /* line-height: 15px; */
   line-height: 1.5;
   color: #a8a8a8;
@@ -244,7 +274,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 22px; */
-  font-size: 32px;
+  font-size: var(--text-size-title);
   /* line-height: 27px; */
   line-height: 1.5;
   color: #fff;
@@ -269,7 +299,7 @@ a {
   font-style: normal;
   font-weight: bold;
   /* font-size: 14px; */
-  font-size: 19px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
   color: #fff;
@@ -281,7 +311,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 19px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
   color: #dee3eb;
@@ -301,7 +331,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 19px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
 }
@@ -318,7 +348,7 @@ a {
   font-style: normal;
   font-weight: normal;
   /* font-size: 14px; */
-  font-size: 19px;
+  font-size: var(--text-size-text);
   /* line-height: 24px; */
   line-height: 1.5;
 }
