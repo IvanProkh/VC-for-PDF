@@ -37,8 +37,10 @@ a {
 .main_content_title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+  /* font-size: 22px; */
+  font-size: 32px;
+  /* line-height: 27px; */
+  line-height: 1.5;
   color: #000;
   margin-bottom: 10px;
 }
@@ -55,8 +57,10 @@ a {
 .my_name {
   font-style: normal;
   font-weight: bold;
-  font-size: 65px;
-  line-height: 55px;
+  /* font-size: 65px; */
+  font-size: 85px;
+  /* line-height: 55px; */
+  line-height: 1.5;
   color: #fff;
   margin: 5px 0 25px 0;
 
@@ -66,8 +70,10 @@ a {
 .about_me_profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
-  line-height: 17px;
+  /* font-size: 25px; */
+  font-size: 35px;
+  /* line-height: 17px; */
+  line-height: 1.5;
   color: #fff;
   margin: 40px 0 55px 0;
 
@@ -82,10 +88,13 @@ a {
 .about_me_description {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 22px;
+  /* line-height: 24px; */
+  line-height: 1.5;
   color: #dee3eb;
-  width: 400px;
+  /* width: 400px; */
+  width: 880px;
   margin-left: 100px;
 }
 
@@ -107,8 +116,10 @@ a {
 .my_projects_link {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  /* font-size: 16px; */
+  font-size: 24px;
+  /* line-height: 20px; */
+  line-height: 1.5;
   color: #000;
 
   text-decoration: underline;
@@ -117,8 +128,10 @@ a {
 .my_projects_code {
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
+  /* font-size: 16px; */
+  font-size: 24px;
+  /* line-height: 20px; */
+  line-height: 1.5;
   color: #000;
   margin-left: 5px;
 }
@@ -126,8 +139,10 @@ a {
 .my_projects_text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 22px;
+  /* line-height: 24px; */
+  line-height: 1.5;
   color: #595959;
   margin-left: 5px;
 }
@@ -135,8 +150,10 @@ a {
 .my_projects_bracket {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 22px;
+  /* line-height: 24px; */
+  line-height: 1.5;
   color: #595959;
   margin: 10px 0;
 }
@@ -151,15 +168,18 @@ a {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
+  /* line-height: 20px; */
+  line-height: 1.5;
   margin: 0 0 10px 0;
 }
 
 .my_work_experience_period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  /* font-size: 12px; */
+  font-size: 19px;
+  /* line-height: 15px; */
+  line-height: 1.5;
   color: #a8a8a8;
   margin: 0 0 10px 0;
 }
@@ -175,8 +195,10 @@ a {
 .my_work_experience_duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 19px;
+  /* line-height: 24px; */
+  line-height: 1.5;
   color: #595959;
 }
 
@@ -193,8 +215,10 @@ a {
 .my_education_period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
+  /* font-size: 12px; */
+  font-size: 17px;
+  /* line-height: 15px; */
+  line-height: 1.5;
   color: #a8a8a8;
 }
 
@@ -219,15 +243,19 @@ a {
 .sidebar_title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
+  /* font-size: 22px; */
+  font-size: 32px;
+  /* line-height: 27px; */
+  line-height: 1.5;
   color: #fff;
   margin: 10px;
 }
 
 .image {
-  width: 370px;
-  height: 354px;
+  /* width: 370px;
+  height: 354px; */
+  width: 500px;
+  height: 500px;
   left: 40px;
   top: 80px;
   border-radius: 50%;
@@ -240,8 +268,10 @@ a {
 .contacts_section_type {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 19px;
+  /* line-height: 24px; */
+  line-height: 1.5;
   color: #fff;
   margin-right: 5px;
   padding: 0 0 0 11px;
@@ -250,8 +280,10 @@ a {
 .contacts_section_link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 19px;
+  /* line-height: 24px; */
+  line-height: 1.5;
   color: #dee3eb;
   padding-left: 23px;
 }
@@ -268,8 +300,10 @@ a {
   color: #fff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 19px;
+  /* line-height: 24px; */
+  line-height: 1.5;
 }
 /* soft skills section */
 
@@ -283,6 +317,8 @@ a {
   color: #fff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  /* font-size: 14px; */
+  font-size: 19px;
+  /* line-height: 24px; */
+  line-height: 1.5;
 }
